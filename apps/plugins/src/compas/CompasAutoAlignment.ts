@@ -99,7 +99,7 @@ export default class CompasAutoAlignmentElement extends LitElement {
           `
         : html`
             <section id="noSubstationsToAlign" tabindex="0">
-              <span>${translate('compas.autoAlignment.missing')}</span>
+              <span>${get('compas.autoAlignment.missing')}</span>
             </section>
           `}
     `;
